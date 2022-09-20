@@ -22,3 +22,10 @@ textarea {
     padding-right: 30%;
 }
 
+#logo {
+    width: 20%;
+}
+
+h1 {
+    float: right;
+}
