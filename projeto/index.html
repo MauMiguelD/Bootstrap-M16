@@ -34,7 +34,7 @@
                 <h2>Sobre nós</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod at, alias culpa in maxime officia iusto? Reprehenderit reiciendis, et, rerum explicabo soluta vero dolore maiores libero fugit veritatis obcaecati eos?</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid facere optio qui sequi, quidem unde autem repellat placeat explicabo, vitae totam perspiciatis minus dolores vero non a. Sapiente, pariatur soluta.</p>
-                <a class="btn btn-lg btn-dark">Botão</a> 
+                <a id="botao1" href="#contato" class="btn btn-sm btn-dark">Contato</a> 
             </div>
             <div class="col-md-5 col-sm-12">
                 <img src="./images/iphones-varios.png" alt="Imagem Exemplo" class="img-fuid" id="img-ent">
@@ -56,7 +56,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Apple iPhone 13</h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>    
+                            <a class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>    
                         </div>
                     </div>
 
@@ -65,7 +65,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Apple iPhone 12</h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>    
+                            <a class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>    
                         </div>
                     </div>
 
@@ -74,7 +74,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Apple iPhone 11</h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>    
+                            <a class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>    
                         </div>
                     </div>
                     
@@ -84,7 +84,7 @@
 
     </section>
 
-    <section class="contato">
+    <section id="contato" class="contato">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
@@ -95,17 +95,17 @@
                     <form class="form">
 
                         <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required>
                         </div>
                         <div class="input-group">
-                            <input class="form-control" type="email" name="email" placeholder="Digite seu email">
+                            <input  class="form-control" type="email" name="email" placeholder="Digite seu email" required>
                         </div>
 
                         <div class="input-group">
                             <textarea class="form-control" name="" rows="5"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-lg btn-dark">Solicitar cotação</button>
+                        <button type="submit" class="btn btn-sm btn-dark">Solicitar cotação</button>
 
                     </form>
                 </div>
@@ -113,6 +113,7 @@
         </div>
     </section>
 
+    <!--Arrumado (APAGAR NA POSTERIOR)-->
 
     <div class="modal fade" id="modal-1">
         <div class="modal-dialog">
@@ -147,7 +148,7 @@
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
@@ -186,7 +187,7 @@
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
@@ -224,7 +225,7 @@
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>

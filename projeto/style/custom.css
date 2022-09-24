@@ -12,10 +12,22 @@ textarea {
     margin-bottom: 1rem;
 }
 
+ul {
+    margin: 2.6rem;
+}
+
+a {
+    color: #000000;
+    background-color: #5b84ff;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
 .card {
     width: 32%;
     float: left;
     margin: 5px;
+    display: block;
 }
 
 #iphone {
@@ -46,9 +58,31 @@ h1 {
 }
 
 #navegacao {
-    color: #5b84ff;
+    color: #000000;
 }
 
 #navegacao:hover {
-    color: #000000;
+    color: gold;
+}
+
+@media (max-width: 768px) {
+    div.card,
+    a,
+    section {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}   
+
+#botao1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#img-ent {
+    margin-top: 2rem;
 }
