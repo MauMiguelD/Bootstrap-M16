@@ -14,6 +14,8 @@ textarea {
 
 ul {
     margin: 2.6rem;
+    padding: 10px;
+    display: block;
 }
 
 a {
@@ -43,11 +45,11 @@ a {
 }
 
 #logo {
-    width: 20%;
+    width: 50%;
 }
 
 h1 {
-    float: right;
+    float: left;
     padding-top: 2rem;
     padding-right: 10rem;
 }
@@ -65,9 +67,11 @@ h1 {
     color: gold;
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 768px) {
     div.card,
     a,
+    menu,
     section {
         width: 100%;
     }
