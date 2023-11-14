@@ -25,14 +25,16 @@ a {
     border-radius: 15px;
 }
 
+
 .card {
-    width: 300px;
-    margin: 0px;
-    padding: 20px;
+    width: 500px; 
+    padding: 10px; 
+    margin: auto;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+
 }
 
 #iphone {
@@ -80,10 +82,8 @@ h1 {
     color: gold;
 }
 
-
 @media (min-width: 768px) {
-    div.card,
-    a,
+    div.a,
     menu,
     section {
         width: 100%;
